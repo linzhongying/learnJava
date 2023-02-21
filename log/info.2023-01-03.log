@@ -1,0 +1,20 @@
+2023-01-03 22:11:17.772 [,] [restartedMain] INFO  c.e.h.HealthApplication - [logStarting,55] --> Starting HealthApplication using Java 1.8.0_131 on windows with PID 9992 (G:\Program Files\health\target\classes started by Administrator in G:\Program Files\health)
+2023-01-03 22:11:17.776 [,] [restartedMain] INFO  c.e.h.HealthApplication - [logStartupProfileInfo,640] --> No active profile set, falling back to 1 default profile: "default"
+2023-01-03 22:11:18.184 [,] [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,255] --> Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-03 22:11:18.185 [,] [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,255] --> For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-03 22:11:20.839 [,] [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [multipleStoresDetected,262] --> Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-01-03 22:11:20.843 [,] [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,132] --> Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-01-03 22:11:20.931 [,] [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,201] --> Finished Spring Data repository scanning in 25 ms. Found 0 Redis repository interfaces.
+2023-01-03 22:11:22.895 [,] [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [initialize,108] --> Tomcat initialized with port(s): 8080 (http)
+2023-01-03 22:11:22.983 [,] [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] --> Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-03 22:11:22.984 [,] [restartedMain] INFO  o.a.c.c.StandardService - [log,173] --> Starting service [Tomcat]
+2023-01-03 22:11:22.984 [,] [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] --> Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-01-03 22:11:23.135 [,] [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] --> Initializing Spring embedded WebApplicationContext
+2023-01-03 22:11:23.135 [,] [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - [prepareWebApplicationContext,290] --> Root WebApplicationContext: initialization completed in 4949 ms
+2023-01-03 22:11:24.842 [,] [restartedMain] WARN  c.b.m.c.m.TableInfoHelper - [initTableFields,307] --> Can not find table primary key in Class: "com.example.health.entity.TbManager".
+2023-01-03 22:11:24.900 [,] [restartedMain] WARN  c.b.m.c.m.TableInfoHelper - [initTableFields,307] --> Can not find table primary key in Class: "com.example.health.entity.TbStudent".
+2023-01-03 22:11:25.039 [,] [restartedMain] WARN  c.b.m.c.m.TableInfoHelper - [initTableFields,307] --> Can not find table primary key in Class: "com.example.health.entity.TbProfession".
+2023-01-03 22:11:27.086 [,] [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - [startServer,58] --> LiveReload server is running on port 35729
+2023-01-03 22:11:27.153 [,] [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] --> Starting ProtocolHandler ["http-nio-8080"]
+2023-01-03 22:11:27.237 [,] [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [start,220] --> Tomcat started on port(s): 8080 (http) with context path ''
+2023-01-03 22:11:27.266 [,] [restartedMain] INFO  c.e.h.HealthApplication - [logStarted,61] --> Started HealthApplication in 12.201 seconds (JVM running for 18.255)

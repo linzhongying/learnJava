@@ -1,7 +1,7 @@
-package com.example.community.service.Impl;
+package com.example.health.service.Impl;
 
-import com.example.community.entity.TbTeacher;
-import com.example.community.service.TeacherService;
+import com.example.health.entity.TbTeacher;
+import com.example.health.service.TeacherService;
 import org.springframework.stereotype.Service;
 
 @Service

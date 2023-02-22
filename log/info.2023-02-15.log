@@ -17,3 +17,283 @@
 2023-02-15 22:34:43.038 [,] [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - [logMessage,136] --> 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-02-15 22:36:58.543 [,] [restartedMain] INFO  c.e.h.HealthApplication - [logStarting,55] --> Starting HealthApplication using Java 1.8.0_131 on windows with PID 16048 (G:\Program Files\health\target\classes started by Administrator in G:\Program Files\health)
+2023-02-15 22:36:58.581 [,] [restartedMain] INFO  c.e.h.HealthApplication - [logStartupProfileInfo,640] --> No active profile set, falling back to 1 default profile: "default"
+2023-02-15 22:36:58.705 [,] [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,255] --> Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-15 22:36:58.706 [,] [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,255] --> For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-15 22:37:00.136 [,] [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [multipleStoresDetected,262] --> Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-02-15 22:37:00.138 [,] [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,132] --> Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-02-15 22:37:00.177 [,] [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,201] --> Finished Spring Data repository scanning in 20 ms. Found 0 Redis repository interfaces.
+2023-02-15 22:37:00.523 [,] [restartedMain] INFO  o.s.c.c.s.GenericScope - [setSerializationId,283] --> BeanFactory id=48a6eb98-a886-30a7-8320-595bb5902ed2
+2023-02-15 22:37:01.168 [,] [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [initialize,108] --> Tomcat initialized with port(s): 8080 (http)
+2023-02-15 22:37:01.181 [,] [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] --> Initializing ProtocolHandler ["http-nio-8080"]
+2023-02-15 22:37:01.182 [,] [restartedMain] INFO  o.a.c.c.StandardService - [log,173] --> Starting service [Tomcat]
+2023-02-15 22:37:01.183 [,] [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] --> Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-02-15 22:37:01.454 [,] [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] --> Initializing Spring embedded WebApplicationContext
+2023-02-15 22:37:01.455 [,] [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - [prepareWebApplicationContext,290] --> Root WebApplicationContext: initialization completed in 2748 ms
+2023-02-15 22:37:01.711 [,] [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - [refresh,591] --> Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisConfig': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'spring.redis.database' in value "${spring.redis.database}"
+2023-02-15 22:37:01.715 [,] [restartedMain] INFO  o.a.c.c.StandardService - [log,173] --> Stopping service [Tomcat]
+2023-02-15 22:37:01.752 [,] [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - [logMessage,136] --> 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-02-15 22:39:38.336 [,] [restartedMain] INFO  c.e.h.HealthApplication - [logStarting,55] --> Starting HealthApplication using Java 1.8.0_131 on windows with PID 15956 (G:\Program Files\health\target\classes started by Administrator in G:\Program Files\health)
+2023-02-15 22:39:38.340 [,] [restartedMain] INFO  c.e.h.HealthApplication - [logStartupProfileInfo,640] --> No active profile set, falling back to 1 default profile: "default"
+2023-02-15 22:39:38.426 [,] [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,255] --> Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-15 22:39:38.427 [,] [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,255] --> For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-15 22:39:40.030 [,] [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [multipleStoresDetected,262] --> Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-02-15 22:39:40.033 [,] [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,132] --> Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-02-15 22:39:40.071 [,] [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,201] --> Finished Spring Data repository scanning in 19 ms. Found 0 Redis repository interfaces.
+2023-02-15 22:39:40.448 [,] [restartedMain] INFO  o.s.c.c.s.GenericScope - [setSerializationId,283] --> BeanFactory id=48a6eb98-a886-30a7-8320-595bb5902ed2
+2023-02-15 22:39:41.083 [,] [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [initialize,108] --> Tomcat initialized with port(s): 8080 (http)
+2023-02-15 22:39:41.094 [,] [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] --> Initializing ProtocolHandler ["http-nio-8080"]
+2023-02-15 22:39:41.095 [,] [restartedMain] INFO  o.a.c.c.StandardService - [log,173] --> Starting service [Tomcat]
+2023-02-15 22:39:41.095 [,] [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] --> Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-02-15 22:39:41.409 [,] [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] --> Initializing Spring embedded WebApplicationContext
+2023-02-15 22:39:41.409 [,] [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - [prepareWebApplicationContext,290] --> Root WebApplicationContext: initialization completed in 2980 ms
+2023-02-15 22:39:41.671 [,] [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - [refresh,591] --> Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisConfig': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'spring.redis.database' in value "${spring.redis.database}"
+2023-02-15 22:39:41.675 [,] [restartedMain] INFO  o.a.c.c.StandardService - [log,173] --> Stopping service [Tomcat]
+2023-02-15 22:39:41.711 [,] [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - [logMessage,136] --> 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-02-15 22:42:34.325 [,] [restartedMain] INFO  c.e.h.HealthApplication - [logStarting,55] --> Starting HealthApplication using Java 1.8.0_131 on windows with PID 7620 (G:\Program Files\health\target\classes started by Administrator in G:\Program Files\health)
+2023-02-15 22:42:34.329 [,] [restartedMain] INFO  c.e.h.HealthApplication - [logStartupProfileInfo,640] --> No active profile set, falling back to 1 default profile: "default"
+2023-02-15 22:42:34.420 [,] [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,255] --> Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-15 22:42:34.421 [,] [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,255] --> For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-15 22:42:36.025 [,] [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [multipleStoresDetected,262] --> Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-02-15 22:42:36.028 [,] [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,132] --> Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-02-15 22:42:36.064 [,] [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,201] --> Finished Spring Data repository scanning in 17 ms. Found 0 Redis repository interfaces.
+2023-02-15 22:42:36.413 [,] [restartedMain] INFO  o.s.c.c.s.GenericScope - [setSerializationId,283] --> BeanFactory id=48a6eb98-a886-30a7-8320-595bb5902ed2
+2023-02-15 22:42:37.047 [,] [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [initialize,108] --> Tomcat initialized with port(s): 8080 (http)
+2023-02-15 22:42:37.057 [,] [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] --> Initializing ProtocolHandler ["http-nio-8080"]
+2023-02-15 22:42:37.058 [,] [restartedMain] INFO  o.a.c.c.StandardService - [log,173] --> Starting service [Tomcat]
+2023-02-15 22:42:37.058 [,] [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] --> Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-02-15 22:42:37.331 [,] [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] --> Initializing Spring embedded WebApplicationContext
+2023-02-15 22:42:37.332 [,] [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - [prepareWebApplicationContext,290] --> Root WebApplicationContext: initialization completed in 2910 ms
+2023-02-15 22:42:37.592 [,] [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - [refresh,591] --> Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisConfig': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'spring.redis.database' in value "${spring.redis.database}"
+2023-02-15 22:42:37.597 [,] [restartedMain] INFO  o.a.c.c.StandardService - [log,173] --> Stopping service [Tomcat]
+2023-02-15 22:42:37.631 [,] [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - [logMessage,136] --> 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-02-15 22:43:50.418 [,] [restartedMain] INFO  c.e.h.HealthApplication - [logStarting,55] --> Starting HealthApplication using Java 1.8.0_131 on windows with PID 14308 (G:\Program Files\health\target\classes started by Administrator in G:\Program Files\health)
+2023-02-15 22:43:50.421 [,] [restartedMain] INFO  c.e.h.HealthApplication - [logStartupProfileInfo,640] --> No active profile set, falling back to 1 default profile: "default"
+2023-02-15 22:43:50.502 [,] [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,255] --> Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-15 22:43:50.502 [,] [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,255] --> For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-15 22:43:52.090 [,] [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [multipleStoresDetected,262] --> Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-02-15 22:43:52.093 [,] [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,132] --> Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-02-15 22:43:52.128 [,] [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,201] --> Finished Spring Data repository scanning in 17 ms. Found 0 Redis repository interfaces.
+2023-02-15 22:43:52.464 [,] [restartedMain] INFO  o.s.c.c.s.GenericScope - [setSerializationId,283] --> BeanFactory id=48a6eb98-a886-30a7-8320-595bb5902ed2
+2023-02-15 22:43:53.095 [,] [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [initialize,108] --> Tomcat initialized with port(s): 8080 (http)
+2023-02-15 22:43:53.105 [,] [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] --> Initializing ProtocolHandler ["http-nio-8080"]
+2023-02-15 22:43:53.106 [,] [restartedMain] INFO  o.a.c.c.StandardService - [log,173] --> Starting service [Tomcat]
+2023-02-15 22:43:53.107 [,] [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] --> Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-02-15 22:43:53.377 [,] [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] --> Initializing Spring embedded WebApplicationContext
+2023-02-15 22:43:53.378 [,] [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - [prepareWebApplicationContext,290] --> Root WebApplicationContext: initialization completed in 2874 ms
+2023-02-15 22:43:54.930 [,] [restartedMain] WARN  c.b.m.c.m.TableInfoHelper - [initTableFields,307] --> Can not find table primary key in Class: "com.example.health.entity.TbManager".
+2023-02-15 22:43:54.982 [,] [restartedMain] WARN  c.b.m.c.m.TableInfoHelper - [initTableFields,307] --> Can not find table primary key in Class: "com.example.health.entity.TbStudent".
+2023-02-15 22:43:55.118 [,] [restartedMain] WARN  c.b.m.c.m.TableInfoHelper - [initTableFields,307] --> Can not find table primary key in Class: "com.example.health.entity.TbProfession".
+2023-02-15 22:43:57.713 [,] [restartedMain] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - [getOrDeducePassword,87] --> 
+
+Using generated security password: 32634511-5021-471e-96b2-182391c8e0a3
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-02-15 22:43:57.977 [,] [restartedMain] INFO  o.s.b.a.e.w.EndpointLinksResolver - [<init>,58] --> Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-02-15 22:43:58.033 [,] [restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain - [<init>,52] --> Will not secure any request
+2023-02-15 22:43:58.340 [,] [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - [startServer,58] --> LiveReload server is running on port 35729
+2023-02-15 22:43:59.177 [,] [restartedMain] INFO  c.a.n.c.r.client - [lambda$createClient$0,80] --> [RpcClientFactory] create a new rpc client of d8de141c-a0cc-40ba-81b9-688eef24be35
+2023-02-15 22:43:59.325 [,] [restartedMain] INFO  o.r.Reflections - [scan,232] --> Reflections took 72 ms to scan 1 urls, producing 3 keys and 6 values 
+2023-02-15 22:43:59.488 [,] [restartedMain] INFO  o.r.Reflections - [scan,232] --> Reflections took 51 ms to scan 1 urls, producing 4 keys and 9 values 
+2023-02-15 22:43:59.516 [,] [restartedMain] INFO  o.r.Reflections - [scan,232] --> Reflections took 24 ms to scan 1 urls, producing 3 keys and 10 values 
+2023-02-15 22:43:59.726 [,] [restartedMain] INFO  o.r.Reflections - [scan,232] --> Reflections took 205 ms to scan 122 urls, producing 0 keys and 0 values 
+2023-02-15 22:43:59.744 [,] [restartedMain] INFO  o.r.Reflections - [scan,232] --> Reflections took 17 ms to scan 1 urls, producing 1 keys and 5 values 
+2023-02-15 22:43:59.775 [,] [restartedMain] INFO  o.r.Reflections - [scan,232] --> Reflections took 27 ms to scan 1 urls, producing 1 keys and 7 values 
+2023-02-15 22:43:59.798 [,] [restartedMain] INFO  o.r.Reflections - [scan,232] --> Reflections took 19 ms to scan 1 urls, producing 2 keys and 8 values 
+2023-02-15 22:44:00.004 [,] [restartedMain] INFO  o.r.Reflections - [scan,232] --> Reflections took 202 ms to scan 122 urls, producing 0 keys and 0 values 
+2023-02-15 22:44:00.011 [,] [restartedMain] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] --> [d8de141c-a0cc-40ba-81b9-688eef24be35] RpcClient init label, labels = {module=naming, source=sdk}
+2023-02-15 22:44:00.022 [,] [restartedMain] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] --> [d8de141c-a0cc-40ba-81b9-688eef24be35] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+2023-02-15 22:44:00.022 [,] [restartedMain] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] --> [d8de141c-a0cc-40ba-81b9-688eef24be35] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2023-02-15 22:44:00.023 [,] [restartedMain] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] --> [d8de141c-a0cc-40ba-81b9-688eef24be35] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2023-02-15 22:44:00.025 [,] [restartedMain] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] --> [d8de141c-a0cc-40ba-81b9-688eef24be35] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2023-02-15 22:44:03.566 [,] [restartedMain] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] --> [d8de141c-a0cc-40ba-81b9-688eef24be35] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2023-02-15 22:44:04.575 [,] [restartedMain] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] --> [d8de141c-a0cc-40ba-81b9-688eef24be35] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2023-02-15 22:44:05.582 [,] [restartedMain] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] --> [d8de141c-a0cc-40ba-81b9-688eef24be35] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2023-02-15 22:44:05.583 [,] [restartedMain] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] --> [d8de141c-a0cc-40ba-81b9-688eef24be35] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1121/57745701
+2023-02-15 22:44:05.584 [,] [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] --> [d8de141c-a0cc-40ba-81b9-688eef24be35] Try to reconnect to a new server, server is  not appointed, will choose a random server.
+2023-02-15 22:44:05.957 [,] [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] --> Starting ProtocolHandler ["http-nio-8080"]
+2023-02-15 22:44:06.025 [,] [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [start,220] --> Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-15 22:44:06.339 [,] [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - [refresh,591] --> Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is java.lang.reflect.UndeclaredThrowableException
+2023-02-15 22:44:06.926 [,] [restartedMain] INFO  c.a.n.c.r.client - [shutdown,454] --> Shutdown rpc client, set status to shutdown
+2023-02-15 22:44:06.926 [,] [restartedMain] INFO  c.a.n.c.r.client - [shutdown,456] --> Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@4add4116[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+2023-02-15 22:44:06.926 [,] [restartedMain] INFO  c.a.n.c.r.c.g.GrpcClient - [shutdown,85] --> Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@60b79cf3[Running, pool size = 8, active threads = 0, queued tasks = 0, completed tasks = 8]
+2023-02-15 22:44:06.929 [,] [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] --> [d8de141c-a0cc-40ba-81b9-688eef24be35] Fail to connect server, after trying 1 times, last try server is {serverIp = '127.0.0.1', server main port = 8848}, error = unknown
+2023-02-15 22:44:06.932 [,] [restartedMain] INFO  c.a.n.c.r.client - [lambda$createClient$0,80] --> [RpcClientFactory] create a new rpc client of ac47db52-c01d-4cf4-bfd7-ed2b9c82d578
+2023-02-15 22:44:06.933 [,] [restartedMain] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] --> [ac47db52-c01d-4cf4-bfd7-ed2b9c82d578] RpcClient init label, labels = {module=naming, source=sdk}
+2023-02-15 22:44:06.933 [,] [restartedMain] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] --> [ac47db52-c01d-4cf4-bfd7-ed2b9c82d578] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+2023-02-15 22:44:06.933 [,] [restartedMain] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] --> [ac47db52-c01d-4cf4-bfd7-ed2b9c82d578] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2023-02-15 22:44:06.934 [,] [restartedMain] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] --> [ac47db52-c01d-4cf4-bfd7-ed2b9c82d578] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2023-02-15 22:44:06.935 [,] [restartedMain] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] --> [ac47db52-c01d-4cf4-bfd7-ed2b9c82d578] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2023-02-15 22:44:07.131 [,] [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] --> [d8de141c-a0cc-40ba-81b9-688eef24be35] Client is shutdown, stop reconnect to server
+2023-02-15 22:44:07.935 [,] [restartedMain] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] --> [ac47db52-c01d-4cf4-bfd7-ed2b9c82d578] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2023-02-15 22:44:08.937 [,] [restartedMain] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] --> [ac47db52-c01d-4cf4-bfd7-ed2b9c82d578] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2023-02-15 22:44:09.945 [,] [restartedMain] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] --> [ac47db52-c01d-4cf4-bfd7-ed2b9c82d578] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2023-02-15 22:44:09.946 [,] [restartedMain] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] --> [ac47db52-c01d-4cf4-bfd7-ed2b9c82d578] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1121/57745701
+2023-02-15 22:44:09.948 [,] [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] --> [ac47db52-c01d-4cf4-bfd7-ed2b9c82d578] Try to reconnect to a new server, server is  not appointed, will choose a random server.
+2023-02-15 22:44:10.531 [,] [restartedMain] INFO  c.a.d.p.DruidDataSource - [close,2043] --> {dataSource-0} closing ...
+2023-02-15 22:44:10.725 [,] [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] --> Pausing ProtocolHandler ["http-nio-8080"]
+2023-02-15 22:44:10.726 [,] [restartedMain] INFO  o.a.c.c.StandardService - [log,173] --> Stopping service [Tomcat]
+2023-02-15 22:44:10.740 [,] [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] --> Stopping ProtocolHandler ["http-nio-8080"]
+2023-02-15 22:44:10.744 [,] [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] --> Destroying ProtocolHandler ["http-nio-8080"]
+2023-02-15 22:44:10.765 [,] [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - [logMessage,136] --> 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-02-15 22:44:11.331 [,] [Thread-32] WARN  c.a.n.c.n.NotifyCenter - [shutdown,136] --> [NotifyCenter] Start destroying Publisher
+2023-02-15 22:44:11.332 [,] [Thread-32] WARN  c.a.n.c.n.NotifyCenter - [shutdown,153] --> [NotifyCenter] Destruction of the end
+2023-02-15 22:44:11.332 [,] [Thread-35] WARN  c.a.n.c.h.HttpClientBeanHolder - [shutdown,108] --> [HttpClientBeanHolder] Start destroying common HttpClient
+2023-02-15 22:45:38.006 [,] [restartedMain] INFO  c.e.h.HealthApplication - [logStarting,55] --> Starting HealthApplication using Java 1.8.0_131 on windows with PID 14596 (G:\Program Files\health\target\classes started by Administrator in G:\Program Files\health)
+2023-02-15 22:45:38.010 [,] [restartedMain] INFO  c.e.h.HealthApplication - [logStartupProfileInfo,640] --> No active profile set, falling back to 1 default profile: "default"
+2023-02-15 22:45:38.094 [,] [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,255] --> Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-15 22:45:38.095 [,] [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,255] --> For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-15 22:45:39.678 [,] [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [multipleStoresDetected,262] --> Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-02-15 22:45:39.681 [,] [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,132] --> Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-02-15 22:45:39.719 [,] [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,201] --> Finished Spring Data repository scanning in 18 ms. Found 0 Redis repository interfaces.
+2023-02-15 22:45:40.081 [,] [restartedMain] INFO  o.s.c.c.s.GenericScope - [setSerializationId,283] --> BeanFactory id=48a6eb98-a886-30a7-8320-595bb5902ed2
+2023-02-15 22:45:40.735 [,] [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [initialize,108] --> Tomcat initialized with port(s): 8080 (http)
+2023-02-15 22:45:40.746 [,] [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] --> Initializing ProtocolHandler ["http-nio-8080"]
+2023-02-15 22:45:40.747 [,] [restartedMain] INFO  o.a.c.c.StandardService - [log,173] --> Starting service [Tomcat]
+2023-02-15 22:45:40.748 [,] [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] --> Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-02-15 22:45:41.127 [,] [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] --> Initializing Spring embedded WebApplicationContext
+2023-02-15 22:45:41.128 [,] [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - [prepareWebApplicationContext,290] --> Root WebApplicationContext: initialization completed in 3032 ms
+2023-02-15 22:45:42.208 [,] [restartedMain] WARN  c.b.m.c.m.TableInfoHelper - [initTableFields,307] --> Can not find table primary key in Class: "com.example.health.entity.TbManager".
+2023-02-15 22:45:42.269 [,] [restartedMain] WARN  c.b.m.c.m.TableInfoHelper - [initTableFields,307] --> Can not find table primary key in Class: "com.example.health.entity.TbStudent".
+2023-02-15 22:45:42.415 [,] [restartedMain] WARN  c.b.m.c.m.TableInfoHelper - [initTableFields,307] --> Can not find table primary key in Class: "com.example.health.entity.TbProfession".
+2023-02-15 22:45:43.950 [,] [restartedMain] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - [getOrDeducePassword,87] --> 
+
+Using generated security password: 1cd2fb51-8332-48ce-8b05-f77aeee78af2
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-02-15 22:45:44.103 [,] [restartedMain] INFO  o.s.b.a.e.w.EndpointLinksResolver - [<init>,58] --> Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-02-15 22:45:44.122 [,] [restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain - [<init>,52] --> Will not secure any request
+2023-02-15 22:45:44.305 [,] [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - [startServer,58] --> LiveReload server is running on port 35729
+2023-02-15 22:45:44.960 [,] [restartedMain] INFO  c.a.n.c.r.client - [lambda$createClient$0,80] --> [RpcClientFactory] create a new rpc client of 26dc98db-24d4-45a2-b218-92a6288c5521
+2023-02-15 22:45:45.038 [,] [restartedMain] INFO  o.r.Reflections - [scan,232] --> Reflections took 52 ms to scan 1 urls, producing 3 keys and 6 values 
+2023-02-15 22:45:45.112 [,] [restartedMain] INFO  o.r.Reflections - [scan,232] --> Reflections took 54 ms to scan 1 urls, producing 4 keys and 9 values 
+2023-02-15 22:45:45.140 [,] [restartedMain] INFO  o.r.Reflections - [scan,232] --> Reflections took 23 ms to scan 1 urls, producing 3 keys and 10 values 
+2023-02-15 22:45:45.368 [,] [restartedMain] INFO  o.r.Reflections - [scan,232] --> Reflections took 224 ms to scan 122 urls, producing 0 keys and 0 values 
+2023-02-15 22:45:45.387 [,] [restartedMain] INFO  o.r.Reflections - [scan,232] --> Reflections took 18 ms to scan 1 urls, producing 1 keys and 5 values 
+2023-02-15 22:45:45.411 [,] [restartedMain] INFO  o.r.Reflections - [scan,232] --> Reflections took 20 ms to scan 1 urls, producing 1 keys and 7 values 
+2023-02-15 22:45:45.433 [,] [restartedMain] INFO  o.r.Reflections - [scan,232] --> Reflections took 18 ms to scan 1 urls, producing 2 keys and 8 values 
+2023-02-15 22:45:45.626 [,] [restartedMain] INFO  o.r.Reflections - [scan,232] --> Reflections took 189 ms to scan 122 urls, producing 0 keys and 0 values 
+2023-02-15 22:45:45.628 [,] [restartedMain] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] --> [26dc98db-24d4-45a2-b218-92a6288c5521] RpcClient init label, labels = {module=naming, source=sdk}
+2023-02-15 22:45:45.631 [,] [restartedMain] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] --> [26dc98db-24d4-45a2-b218-92a6288c5521] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+2023-02-15 22:45:45.632 [,] [restartedMain] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] --> [26dc98db-24d4-45a2-b218-92a6288c5521] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2023-02-15 22:45:45.633 [,] [restartedMain] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] --> [26dc98db-24d4-45a2-b218-92a6288c5521] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2023-02-15 22:45:45.636 [,] [restartedMain] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] --> [26dc98db-24d4-45a2-b218-92a6288c5521] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2023-02-15 22:45:48.448 [,] [restartedMain] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] --> [26dc98db-24d4-45a2-b218-92a6288c5521] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2023-02-15 22:45:49.477 [,] [restartedMain] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] --> [26dc98db-24d4-45a2-b218-92a6288c5521] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2023-02-15 22:45:50.481 [,] [restartedMain] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] --> [26dc98db-24d4-45a2-b218-92a6288c5521] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2023-02-15 22:45:50.482 [,] [restartedMain] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] --> [26dc98db-24d4-45a2-b218-92a6288c5521] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1121/398833423
+2023-02-15 22:45:50.486 [,] [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] --> [26dc98db-24d4-45a2-b218-92a6288c5521] Try to reconnect to a new server, server is  not appointed, will choose a random server.
+2023-02-15 22:45:50.800 [,] [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] --> Starting ProtocolHandler ["http-nio-8080"]
+2023-02-15 22:45:50.815 [,] [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [start,220] --> Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-15 22:45:51.122 [,] [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - [refresh,591] --> Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is java.lang.reflect.UndeclaredThrowableException
+2023-02-15 22:45:51.751 [,] [restartedMain] INFO  c.a.n.c.r.client - [shutdown,454] --> Shutdown rpc client, set status to shutdown
+2023-02-15 22:45:51.752 [,] [restartedMain] INFO  c.a.n.c.r.client - [shutdown,456] --> Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@38efb207[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+2023-02-15 22:45:51.752 [,] [restartedMain] INFO  c.a.n.c.r.c.g.GrpcClient - [shutdown,85] --> Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@5da4428b[Running, pool size = 8, active threads = 0, queued tasks = 0, completed tasks = 8]
+2023-02-15 22:45:51.754 [,] [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] --> [26dc98db-24d4-45a2-b218-92a6288c5521] Fail to connect server, after trying 1 times, last try server is {serverIp = '127.0.0.1', server main port = 8848}, error = unknown
+2023-02-15 22:45:51.762 [,] [restartedMain] INFO  c.a.n.c.r.client - [lambda$createClient$0,80] --> [RpcClientFactory] create a new rpc client of 970ee27b-c607-41fe-8dc3-6bcf6365d94b
+2023-02-15 22:45:51.762 [,] [restartedMain] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] --> [970ee27b-c607-41fe-8dc3-6bcf6365d94b] RpcClient init label, labels = {module=naming, source=sdk}
+2023-02-15 22:45:51.763 [,] [restartedMain] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] --> [970ee27b-c607-41fe-8dc3-6bcf6365d94b] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+2023-02-15 22:45:51.763 [,] [restartedMain] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] --> [970ee27b-c607-41fe-8dc3-6bcf6365d94b] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2023-02-15 22:45:51.763 [,] [restartedMain] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] --> [970ee27b-c607-41fe-8dc3-6bcf6365d94b] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2023-02-15 22:45:51.764 [,] [restartedMain] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] --> [970ee27b-c607-41fe-8dc3-6bcf6365d94b] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2023-02-15 22:45:51.957 [,] [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] --> [26dc98db-24d4-45a2-b218-92a6288c5521] Client is shutdown, stop reconnect to server
+2023-02-15 22:45:52.771 [,] [restartedMain] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] --> [970ee27b-c607-41fe-8dc3-6bcf6365d94b] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2023-02-15 22:45:53.785 [,] [restartedMain] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] --> [970ee27b-c607-41fe-8dc3-6bcf6365d94b] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2023-02-15 22:45:54.797 [,] [restartedMain] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] --> [970ee27b-c607-41fe-8dc3-6bcf6365d94b] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2023-02-15 22:45:54.798 [,] [restartedMain] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] --> [970ee27b-c607-41fe-8dc3-6bcf6365d94b] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1121/398833423
+2023-02-15 22:45:54.800 [,] [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] --> [970ee27b-c607-41fe-8dc3-6bcf6365d94b] Try to reconnect to a new server, server is  not appointed, will choose a random server.
+2023-02-15 22:45:55.320 [,] [restartedMain] INFO  c.a.d.p.DruidDataSource - [close,2043] --> {dataSource-0} closing ...
+2023-02-15 22:45:55.521 [,] [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] --> Pausing ProtocolHandler ["http-nio-8080"]
+2023-02-15 22:45:55.521 [,] [restartedMain] INFO  o.a.c.c.StandardService - [log,173] --> Stopping service [Tomcat]
+2023-02-15 22:45:55.536 [,] [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] --> Stopping ProtocolHandler ["http-nio-8080"]
+2023-02-15 22:45:55.540 [,] [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] --> Destroying ProtocolHandler ["http-nio-8080"]
+2023-02-15 22:45:55.569 [,] [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - [logMessage,136] --> 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-02-15 22:45:56.118 [,] [Thread-28] WARN  c.a.n.c.n.NotifyCenter - [shutdown,136] --> [NotifyCenter] Start destroying Publisher
+2023-02-15 22:45:56.118 [,] [Thread-28] WARN  c.a.n.c.n.NotifyCenter - [shutdown,153] --> [NotifyCenter] Destruction of the end
+2023-02-15 23:02:56.518 [,] [restartedMain] INFO  c.e.h.HealthApplication - [logStarting,55] --> Starting HealthApplication using Java 1.8.0_131 on windows with PID 12976 (G:\Program Files\health\target\classes started by Administrator in G:\Program Files\health)
+2023-02-15 23:02:56.521 [,] [restartedMain] INFO  c.e.h.HealthApplication - [logStartupProfileInfo,640] --> No active profile set, falling back to 1 default profile: "default"
+2023-02-15 23:02:56.614 [,] [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,255] --> Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-15 23:02:56.614 [,] [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,255] --> For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-15 23:02:58.172 [,] [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [multipleStoresDetected,262] --> Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-02-15 23:02:58.175 [,] [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,132] --> Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-02-15 23:02:58.213 [,] [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,201] --> Finished Spring Data repository scanning in 18 ms. Found 0 Redis repository interfaces.
+2023-02-15 23:02:58.562 [,] [restartedMain] INFO  o.s.c.c.s.GenericScope - [setSerializationId,283] --> BeanFactory id=48a6eb98-a886-30a7-8320-595bb5902ed2
+2023-02-15 23:02:59.201 [,] [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [initialize,108] --> Tomcat initialized with port(s): 8080 (http)
+2023-02-15 23:02:59.212 [,] [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] --> Initializing ProtocolHandler ["http-nio-8080"]
+2023-02-15 23:02:59.213 [,] [restartedMain] INFO  o.a.c.c.StandardService - [log,173] --> Starting service [Tomcat]
+2023-02-15 23:02:59.214 [,] [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] --> Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-02-15 23:02:59.490 [,] [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] --> Initializing Spring embedded WebApplicationContext
+2023-02-15 23:02:59.491 [,] [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - [prepareWebApplicationContext,290] --> Root WebApplicationContext: initialization completed in 2876 ms
+2023-02-15 23:03:00.596 [,] [restartedMain] WARN  c.b.m.c.m.TableInfoHelper - [initTableFields,307] --> Can not find table primary key in Class: "com.example.health.entity.TbManager".
+2023-02-15 23:03:00.653 [,] [restartedMain] WARN  c.b.m.c.m.TableInfoHelper - [initTableFields,307] --> Can not find table primary key in Class: "com.example.health.entity.TbStudent".
+2023-02-15 23:03:00.789 [,] [restartedMain] WARN  c.b.m.c.m.TableInfoHelper - [initTableFields,307] --> Can not find table primary key in Class: "com.example.health.entity.TbProfession".
+2023-02-15 23:03:02.402 [,] [restartedMain] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - [getOrDeducePassword,87] --> 
+
+Using generated security password: 05b8d2f3-a42a-4f01-adbc-f83bc6472458
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-02-15 23:03:02.561 [,] [restartedMain] INFO  o.s.b.a.e.w.EndpointLinksResolver - [<init>,58] --> Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-02-15 23:03:02.580 [,] [restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain - [<init>,52] --> Will not secure any request
+2023-02-15 23:03:02.772 [,] [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - [startServer,58] --> LiveReload server is running on port 35729
+2023-02-15 23:03:03.442 [,] [restartedMain] INFO  c.a.n.c.r.client - [lambda$createClient$0,80] --> [RpcClientFactory] create a new rpc client of 09c095c4-467d-407f-b913-3a23a90cf47b
+2023-02-15 23:03:03.517 [,] [restartedMain] INFO  o.r.Reflections - [scan,232] --> Reflections took 51 ms to scan 1 urls, producing 3 keys and 6 values 
+2023-02-15 23:03:03.568 [,] [restartedMain] INFO  o.r.Reflections - [scan,232] --> Reflections took 30 ms to scan 1 urls, producing 4 keys and 9 values 
+2023-02-15 23:03:03.623 [,] [restartedMain] INFO  o.r.Reflections - [scan,232] --> Reflections took 51 ms to scan 1 urls, producing 3 keys and 10 values 
+2023-02-15 23:03:03.839 [,] [restartedMain] INFO  o.r.Reflections - [scan,232] --> Reflections took 211 ms to scan 122 urls, producing 0 keys and 0 values 
+2023-02-15 23:03:03.858 [,] [restartedMain] INFO  o.r.Reflections - [scan,232] --> Reflections took 18 ms to scan 1 urls, producing 1 keys and 5 values 
+2023-02-15 23:03:03.880 [,] [restartedMain] INFO  o.r.Reflections - [scan,232] --> Reflections took 18 ms to scan 1 urls, producing 1 keys and 7 values 
+2023-02-15 23:03:03.902 [,] [restartedMain] INFO  o.r.Reflections - [scan,232] --> Reflections took 18 ms to scan 1 urls, producing 2 keys and 8 values 
+2023-02-15 23:03:04.124 [,] [restartedMain] INFO  o.r.Reflections - [scan,232] --> Reflections took 218 ms to scan 122 urls, producing 0 keys and 0 values 
+2023-02-15 23:03:04.125 [,] [restartedMain] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] --> [09c095c4-467d-407f-b913-3a23a90cf47b] RpcClient init label, labels = {module=naming, source=sdk}
+2023-02-15 23:03:04.128 [,] [restartedMain] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] --> [09c095c4-467d-407f-b913-3a23a90cf47b] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+2023-02-15 23:03:04.129 [,] [restartedMain] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] --> [09c095c4-467d-407f-b913-3a23a90cf47b] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2023-02-15 23:03:04.130 [,] [restartedMain] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] --> [09c095c4-467d-407f-b913-3a23a90cf47b] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2023-02-15 23:03:04.133 [,] [restartedMain] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] --> [09c095c4-467d-407f-b913-3a23a90cf47b] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 9848}
+2023-02-15 23:03:06.939 [,] [restartedMain] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] --> [09c095c4-467d-407f-b913-3a23a90cf47b] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 9848}
+2023-02-15 23:03:07.950 [,] [restartedMain] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] --> [09c095c4-467d-407f-b913-3a23a90cf47b] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 9848}
+2023-02-15 23:03:08.964 [,] [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] --> [09c095c4-467d-407f-b913-3a23a90cf47b] Try to reconnect to a new server, server is  not appointed, will choose a random server.
+2023-02-15 23:03:08.964 [,] [restartedMain] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] --> [09c095c4-467d-407f-b913-3a23a90cf47b] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2023-02-15 23:03:08.965 [,] [restartedMain] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] --> [09c095c4-467d-407f-b913-3a23a90cf47b] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1121/567481342
+2023-02-15 23:03:09.283 [,] [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] --> Starting ProtocolHandler ["http-nio-8080"]
+2023-02-15 23:03:09.297 [,] [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [start,220] --> Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-15 23:03:09.608 [,] [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - [refresh,591] --> Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is java.lang.reflect.UndeclaredThrowableException
+2023-02-15 23:03:10.242 [,] [restartedMain] INFO  c.a.n.c.r.client - [shutdown,454] --> Shutdown rpc client, set status to shutdown
+2023-02-15 23:03:10.242 [,] [restartedMain] INFO  c.a.n.c.r.client - [shutdown,456] --> Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@14d29dc3[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+2023-02-15 23:03:10.243 [,] [restartedMain] INFO  c.a.n.c.r.c.g.GrpcClient - [shutdown,85] --> Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@5a07a1be[Running, pool size = 8, active threads = 0, queued tasks = 0, completed tasks = 8]
+2023-02-15 23:03:10.246 [,] [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] --> [09c095c4-467d-407f-b913-3a23a90cf47b] Fail to connect server, after trying 1 times, last try server is {serverIp = '127.0.0.1', server main port = 9848}, error = unknown
+2023-02-15 23:03:10.252 [,] [restartedMain] INFO  c.a.n.c.r.client - [lambda$createClient$0,80] --> [RpcClientFactory] create a new rpc client of 0f8c9188-2da8-4fc0-a7ba-b3b0a517458e
+2023-02-15 23:03:10.253 [,] [restartedMain] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] --> [0f8c9188-2da8-4fc0-a7ba-b3b0a517458e] RpcClient init label, labels = {module=naming, source=sdk}
+2023-02-15 23:03:10.255 [,] [restartedMain] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] --> [0f8c9188-2da8-4fc0-a7ba-b3b0a517458e] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+2023-02-15 23:03:10.256 [,] [restartedMain] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] --> [0f8c9188-2da8-4fc0-a7ba-b3b0a517458e] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2023-02-15 23:03:10.257 [,] [restartedMain] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] --> [0f8c9188-2da8-4fc0-a7ba-b3b0a517458e] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2023-02-15 23:03:10.258 [,] [restartedMain] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] --> [0f8c9188-2da8-4fc0-a7ba-b3b0a517458e] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 9848}
+2023-02-15 23:03:10.446 [,] [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] --> [09c095c4-467d-407f-b913-3a23a90cf47b] Client is shutdown, stop reconnect to server
+2023-02-15 23:03:11.267 [,] [restartedMain] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] --> [0f8c9188-2da8-4fc0-a7ba-b3b0a517458e] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 9848}
+2023-02-15 23:03:12.269 [,] [restartedMain] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] --> [0f8c9188-2da8-4fc0-a7ba-b3b0a517458e] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 9848}
+2023-02-15 23:03:13.273 [,] [restartedMain] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] --> [0f8c9188-2da8-4fc0-a7ba-b3b0a517458e] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2023-02-15 23:03:13.273 [,] [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] --> [0f8c9188-2da8-4fc0-a7ba-b3b0a517458e] Try to reconnect to a new server, server is  not appointed, will choose a random server.
+2023-02-15 23:03:13.274 [,] [restartedMain] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] --> [0f8c9188-2da8-4fc0-a7ba-b3b0a517458e] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1121/567481342
+2023-02-15 23:03:13.796 [,] [restartedMain] INFO  c.a.d.p.DruidDataSource - [close,2043] --> {dataSource-0} closing ...
+2023-02-15 23:03:13.998 [,] [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] --> Pausing ProtocolHandler ["http-nio-8080"]
+2023-02-15 23:03:13.999 [,] [restartedMain] INFO  o.a.c.c.StandardService - [log,173] --> Stopping service [Tomcat]
+2023-02-15 23:03:14.015 [,] [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] --> Stopping ProtocolHandler ["http-nio-8080"]
+2023-02-15 23:03:14.019 [,] [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] --> Destroying ProtocolHandler ["http-nio-8080"]
+2023-02-15 23:03:14.040 [,] [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - [logMessage,136] --> 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-02-15 23:03:14.594 [,] [Thread-28] WARN  c.a.n.c.n.NotifyCenter - [shutdown,136] --> [NotifyCenter] Start destroying Publisher
+2023-02-15 23:03:14.595 [,] [Thread-28] WARN  c.a.n.c.n.NotifyCenter - [shutdown,153] --> [NotifyCenter] Destruction of the end

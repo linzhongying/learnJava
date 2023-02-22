@@ -1,9 +1,9 @@
-package com.example.community.service.Impl;
+package com.example.health.service.Impl;
 
-import com.example.community.common.CommonResult;
-import com.example.community.entity.TbClass;
-import com.example.community.mapper.ClassMapper;
-import com.example.community.service.ClassService;
+import com.example.health.common.CommonResult;
+import com.example.health.entity.TbClass;
+import com.example.health.mapper.ClassMapper;
+import com.example.health.service.ClassService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

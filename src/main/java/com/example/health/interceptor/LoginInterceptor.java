@@ -1,7 +1,7 @@
-package com.example.community.interceptor;
+package com.example.health.interceptor;
 
 import com.alibaba.fastjson.JSONObject;
-import com.example.community.common.CommonResult;
+import com.example.health.common.CommonResult;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;

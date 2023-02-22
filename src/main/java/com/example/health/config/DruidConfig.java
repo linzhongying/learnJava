@@ -1,4 +1,4 @@
-package com.example.community.config;
+package com.example.health.config;
 
 import com.alibaba.druid.pool.DruidDataSource;
 import com.alibaba.druid.support.http.StatViewServlet;

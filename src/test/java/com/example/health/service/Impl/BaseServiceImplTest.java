@@ -1,9 +1,9 @@
-package com.example.community.service.Impl;
+package com.example.health.service.Impl;
 
-import com.example.community.common.CommonResult;
+import com.example.health.common.CommonResult;
 
-import com.example.community.entity.TbDepartment;
-import com.example.community.service.DepartmentService;
+import com.example.health.entity.TbDepartment;
+import com.example.health.service.DepartmentService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

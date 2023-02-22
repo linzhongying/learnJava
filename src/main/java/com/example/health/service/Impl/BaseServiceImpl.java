@@ -1,13 +1,13 @@
-package com.example.community.service.Impl;
+package com.example.health.service.Impl;
 
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 
-import com.example.community.common.CommonResult;
-import com.example.community.mapper.BaseDao;
-import com.example.community.service.BaseService;
+import com.example.health.common.CommonResult;
+import com.example.health.mapper.BaseDao;
+import com.example.health.service.BaseService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 

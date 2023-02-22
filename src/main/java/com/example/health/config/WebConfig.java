@@ -1,6 +1,6 @@
-package com.example.community.config;
+package com.example.health.config;
 
-import com.example.community.interceptor.LoginInterceptor;
+import com.example.health.interceptor.LoginInterceptor;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;

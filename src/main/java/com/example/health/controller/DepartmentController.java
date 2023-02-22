@@ -1,8 +1,8 @@
-package com.example.community.controller;
+package com.example.health.controller;
 
-import com.example.community.common.CommonResult;
-import com.example.community.entity.TbDepartment;
-import com.example.community.service.DepartmentService;
+import com.example.health.common.CommonResult;
+import com.example.health.entity.TbDepartment;
+import com.example.health.service.DepartmentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

@@ -1,4 +1,4 @@
-package com.example.community.config;
+package com.example.health.config;
 
 import com.baomidou.mybatisplus.annotation.DbType;
 import com.baomidou.mybatisplus.autoconfigure.ConfigurationCustomizer;

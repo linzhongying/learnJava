@@ -1,6 +1,6 @@
-package com.example.community.mapper;
+package com.example.health.mapper;
 
-import com.example.community.entity.TbProfession;
+import com.example.health.entity.TbProfession;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;

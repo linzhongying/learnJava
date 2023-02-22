@@ -1,6 +1,7 @@
-package com.example.community.config;
+package com.example.health.config;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.redis.connection.RedisConnectionFactory;
@@ -32,7 +33,8 @@ public class RedisConfig {
         redisTemplate.setHashKeySerializer(new StringRedisSerializer());
         redisTemplate.setHashValueSerializer(jackson2JsonRedisSerializer);
 
-        return redisTemplate;
+        redisTemplate.afterPropertiesSet();
 
+        return redisTemplate;
     }
 }

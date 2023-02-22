@@ -1,14 +1,14 @@
-package com.example.community.controller;
+package com.example.health.controller;
 
-import com.example.community.common.CommonResult;
-import com.example.community.entity.TbDoctor;
-import com.example.community.entity.TbManager;
-import com.example.community.entity.TbStudent;
-import com.example.community.entity.TbTeacher;
-import com.example.community.service.DoctorService;
-import com.example.community.service.ManagerService;
-import com.example.community.service.StudentService;
-import com.example.community.service.TeacherService;
+import com.example.health.common.CommonResult;
+import com.example.health.entity.TbDoctor;
+import com.example.health.entity.TbManager;
+import com.example.health.entity.TbStudent;
+import com.example.health.entity.TbTeacher;
+import com.example.health.service.DoctorService;
+import com.example.health.service.ManagerService;
+import com.example.health.service.StudentService;
+import com.example.health.service.TeacherService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -26,6 +26,11 @@ public class LoginController {
     private TeacherService teacherService;
     @Autowired
     private DoctorService doctorService;
+
+    @GetMapping(value = "/echo/{string}")
+    public String echo(@PathVariable String string) {
+        return "Hello Nacos Discovery " + string;
+    }
 
     @PostMapping("/login")
     public CommonResult userLogin(@RequestParam("userName")String userName, @RequestParam("passWord")String passWord,

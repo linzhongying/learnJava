@@ -1,10 +1,10 @@
-package com.example.community.service.Impl;
+package com.example.health.service.Impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.example.community.common.CommonResult;
-import com.example.community.mapper.ProfessionMapper;
-import com.example.community.entity.TbProfession;
-import com.example.community.service.ProfessionService;
+import com.example.health.common.CommonResult;
+import com.example.health.mapper.ProfessionMapper;
+import com.example.health.entity.TbProfession;
+import com.example.health.service.ProfessionService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

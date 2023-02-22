@@ -1,7 +1,7 @@
-package com.example.community.service;
+package com.example.health.service;
 
 
-import com.example.community.common.CommonResult;
+import com.example.health.common.CommonResult;
 
 import java.io.Serializable;
 import java.util.Map;

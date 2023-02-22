@@ -1,8 +1,8 @@
-package com.example.community.service.Impl;
+package com.example.health.service.Impl;
 
-import com.example.community.entity.TbManager;
+import com.example.health.entity.TbManager;
 
-import com.example.community.service.ManagerService;
+import com.example.health.service.ManagerService;
 import org.springframework.stereotype.Service;
 
 

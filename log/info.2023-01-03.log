@@ -18,3 +18,103 @@
 2023-01-03 22:11:27.153 [,] [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] --> Starting ProtocolHandler ["http-nio-8080"]
 2023-01-03 22:11:27.237 [,] [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [start,220] --> Tomcat started on port(s): 8080 (http) with context path ''
 2023-01-03 22:11:27.266 [,] [restartedMain] INFO  c.e.h.HealthApplication - [logStarted,61] --> Started HealthApplication in 12.201 seconds (JVM running for 18.255)
+2023-01-03 22:38:41.419 [,] [Thread-30] INFO  c.a.d.p.DruidDataSource - [close,2043] --> {dataSource-0} closing ...
+2023-01-03 22:38:42.147 [,] [restartedMain] INFO  c.e.h.HealthApplication - [logStarting,55] --> Starting HealthApplication using Java 1.8.0_131 on windows with PID 9992 (G:\Program Files\health\target\classes started by Administrator in G:\Program Files\health)
+2023-01-03 22:38:42.148 [,] [restartedMain] INFO  c.e.h.HealthApplication - [logStartupProfileInfo,640] --> No active profile set, falling back to 1 default profile: "default"
+2023-01-03 22:38:43.320 [,] [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [multipleStoresDetected,262] --> Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-01-03 22:38:43.321 [,] [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,132] --> Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-01-03 22:38:43.343 [,] [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,201] --> Finished Spring Data repository scanning in 21 ms. Found 0 Redis repository interfaces.
+2023-01-03 22:38:43.687 [,] [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [initialize,108] --> Tomcat initialized with port(s): 8080 (http)
+2023-01-03 22:38:43.688 [,] [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] --> Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-03 22:38:43.689 [,] [restartedMain] INFO  o.a.c.c.StandardService - [log,173] --> Starting service [Tomcat]
+2023-01-03 22:38:43.690 [,] [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] --> Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-01-03 22:38:43.742 [,] [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] --> Initializing Spring embedded WebApplicationContext
+2023-01-03 22:38:43.743 [,] [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - [prepareWebApplicationContext,290] --> Root WebApplicationContext: initialization completed in 1573 ms
+2023-01-03 22:38:44.976 [,] [restartedMain] WARN  c.b.m.c.m.TableInfoHelper - [initTableFields,307] --> Can not find table primary key in Class: "com.example.health.entity.TbManager".
+2023-01-03 22:38:45.033 [,] [restartedMain] WARN  c.b.m.c.m.TableInfoHelper - [initTableFields,307] --> Can not find table primary key in Class: "com.example.health.entity.TbStudent".
+2023-01-03 22:38:45.203 [,] [restartedMain] WARN  c.b.m.c.m.TableInfoHelper - [initTableFields,307] --> Can not find table primary key in Class: "com.example.health.entity.TbProfession".
+2023-01-03 22:38:45.542 [,] [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - [startServer,58] --> LiveReload server is running on port 35729
+2023-01-03 22:38:45.576 [,] [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] --> Starting ProtocolHandler ["http-nio-8080"]
+2023-01-03 22:38:45.579 [,] [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [start,220] --> Tomcat started on port(s): 8080 (http) with context path ''
+2023-01-03 22:38:45.586 [,] [restartedMain] INFO  c.e.h.HealthApplication - [logStarted,61] --> Started HealthApplication in 3.738 seconds (JVM running for 1656.55)
+2023-01-03 22:38:45.590 [,] [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - [onApplicationEvent,63] --> Condition evaluation unchanged
+2023-01-03 22:43:51.239 [,] [Thread-36] INFO  c.a.d.p.DruidDataSource - [close,2043] --> {dataSource-0} closing ...
+2023-01-03 22:43:51.747 [,] [restartedMain] INFO  c.e.h.HealthApplication - [logStarting,55] --> Starting HealthApplication using Java 1.8.0_131 on windows with PID 9992 (G:\Program Files\health\target\classes started by Administrator in G:\Program Files\health)
+2023-01-03 22:43:51.747 [,] [restartedMain] INFO  c.e.h.HealthApplication - [logStartupProfileInfo,640] --> No active profile set, falling back to 1 default profile: "default"
+2023-01-03 22:43:52.224 [,] [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [multipleStoresDetected,262] --> Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-01-03 22:43:52.225 [,] [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,132] --> Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-01-03 22:43:52.242 [,] [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,201] --> Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+2023-01-03 22:43:52.449 [,] [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [initialize,108] --> Tomcat initialized with port(s): 8080 (http)
+2023-01-03 22:43:52.450 [,] [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] --> Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-03 22:43:52.451 [,] [restartedMain] INFO  o.a.c.c.StandardService - [log,173] --> Starting service [Tomcat]
+2023-01-03 22:43:52.451 [,] [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] --> Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-01-03 22:43:52.488 [,] [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] --> Initializing Spring embedded WebApplicationContext
+2023-01-03 22:43:52.488 [,] [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - [prepareWebApplicationContext,290] --> Root WebApplicationContext: initialization completed in 732 ms
+2023-01-03 22:43:52.809 [,] [restartedMain] WARN  c.b.m.c.m.TableInfoHelper - [initTableFields,307] --> Can not find table primary key in Class: "com.example.health.entity.TbManager".
+2023-01-03 22:43:52.841 [,] [restartedMain] WARN  c.b.m.c.m.TableInfoHelper - [initTableFields,307] --> Can not find table primary key in Class: "com.example.health.entity.TbStudent".
+2023-01-03 22:43:52.953 [,] [restartedMain] WARN  c.b.m.c.m.TableInfoHelper - [initTableFields,307] --> Can not find table primary key in Class: "com.example.health.entity.TbProfession".
+2023-01-03 22:43:53.183 [,] [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - [startServer,58] --> LiveReload server is running on port 35729
+2023-01-03 22:43:53.206 [,] [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] --> Starting ProtocolHandler ["http-nio-8080"]
+2023-01-03 22:43:53.210 [,] [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [start,220] --> Tomcat started on port(s): 8080 (http) with context path ''
+2023-01-03 22:43:53.215 [,] [restartedMain] INFO  c.e.h.HealthApplication - [logStarted,61] --> Started HealthApplication in 1.595 seconds (JVM running for 1964.173)
+2023-01-03 22:43:53.217 [,] [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - [onApplicationEvent,63] --> Condition evaluation unchanged
+2023-01-03 22:45:25.294 [,] [Thread-40] INFO  c.a.d.p.DruidDataSource - [close,2043] --> {dataSource-0} closing ...
+2023-01-03 22:45:25.598 [,] [restartedMain] INFO  c.e.h.HealthApplication - [logStarting,55] --> Starting HealthApplication using Java 1.8.0_131 on windows with PID 9992 (G:\Program Files\health\target\classes started by Administrator in G:\Program Files\health)
+2023-01-03 22:45:25.598 [,] [restartedMain] INFO  c.e.h.HealthApplication - [logStartupProfileInfo,640] --> No active profile set, falling back to 1 default profile: "default"
+2023-01-03 22:45:25.869 [,] [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [multipleStoresDetected,262] --> Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-01-03 22:45:25.870 [,] [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,132] --> Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-01-03 22:45:25.883 [,] [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,201] --> Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2023-01-03 22:45:26.061 [,] [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [initialize,108] --> Tomcat initialized with port(s): 8080 (http)
+2023-01-03 22:45:26.062 [,] [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] --> Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-03 22:45:26.063 [,] [restartedMain] INFO  o.a.c.c.StandardService - [log,173] --> Starting service [Tomcat]
+2023-01-03 22:45:26.063 [,] [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] --> Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-01-03 22:45:26.102 [,] [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] --> Initializing Spring embedded WebApplicationContext
+2023-01-03 22:45:26.102 [,] [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - [prepareWebApplicationContext,290] --> Root WebApplicationContext: initialization completed in 501 ms
+2023-01-03 22:45:26.415 [,] [restartedMain] WARN  c.b.m.c.m.TableInfoHelper - [initTableFields,307] --> Can not find table primary key in Class: "com.example.health.entity.TbManager".
+2023-01-03 22:45:26.442 [,] [restartedMain] WARN  c.b.m.c.m.TableInfoHelper - [initTableFields,307] --> Can not find table primary key in Class: "com.example.health.entity.TbStudent".
+2023-01-03 22:45:26.532 [,] [restartedMain] WARN  c.b.m.c.m.TableInfoHelper - [initTableFields,307] --> Can not find table primary key in Class: "com.example.health.entity.TbProfession".
+2023-01-03 22:45:26.727 [,] [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - [startServer,58] --> LiveReload server is running on port 35729
+2023-01-03 22:45:26.749 [,] [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] --> Starting ProtocolHandler ["http-nio-8080"]
+2023-01-03 22:45:26.752 [,] [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [start,220] --> Tomcat started on port(s): 8080 (http) with context path ''
+2023-01-03 22:45:26.757 [,] [restartedMain] INFO  c.e.h.HealthApplication - [logStarted,61] --> Started HealthApplication in 1.208 seconds (JVM running for 2057.714)
+2023-01-03 22:45:26.760 [,] [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - [onApplicationEvent,63] --> Condition evaluation unchanged
+2023-01-03 22:45:44.492 [,] [Thread-44] INFO  c.a.d.p.DruidDataSource - [close,2043] --> {dataSource-0} closing ...
+2023-01-03 22:45:45.021 [,] [restartedMain] INFO  c.e.h.HealthApplication - [logStarting,55] --> Starting HealthApplication using Java 1.8.0_131 on windows with PID 9992 (G:\Program Files\health\target\classes started by Administrator in G:\Program Files\health)
+2023-01-03 22:45:45.022 [,] [restartedMain] INFO  c.e.h.HealthApplication - [logStartupProfileInfo,640] --> No active profile set, falling back to 1 default profile: "default"
+2023-01-03 22:45:45.493 [,] [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [multipleStoresDetected,262] --> Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-01-03 22:45:45.494 [,] [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,132] --> Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-01-03 22:45:45.507 [,] [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,201] --> Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2023-01-03 22:45:45.690 [,] [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [initialize,108] --> Tomcat initialized with port(s): 8080 (http)
+2023-01-03 22:45:45.692 [,] [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] --> Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-03 22:45:45.693 [,] [restartedMain] INFO  o.a.c.c.StandardService - [log,173] --> Starting service [Tomcat]
+2023-01-03 22:45:45.693 [,] [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] --> Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-01-03 22:45:45.747 [,] [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] --> Initializing Spring embedded WebApplicationContext
+2023-01-03 22:45:45.747 [,] [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - [prepareWebApplicationContext,290] --> Root WebApplicationContext: initialization completed in 721 ms
+2023-01-03 22:45:46.203 [,] [restartedMain] WARN  c.b.m.c.m.TableInfoHelper - [initTableFields,307] --> Can not find table primary key in Class: "com.example.health.entity.TbManager".
+2023-01-03 22:45:46.242 [,] [restartedMain] WARN  c.b.m.c.m.TableInfoHelper - [initTableFields,307] --> Can not find table primary key in Class: "com.example.health.entity.TbStudent".
+2023-01-03 22:45:46.343 [,] [restartedMain] WARN  c.b.m.c.m.TableInfoHelper - [initTableFields,307] --> Can not find table primary key in Class: "com.example.health.entity.TbProfession".
+2023-01-03 22:45:46.795 [,] [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - [startServer,58] --> LiveReload server is running on port 35729
+2023-01-03 22:45:46.837 [,] [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] --> Starting ProtocolHandler ["http-nio-8080"]
+2023-01-03 22:45:46.841 [,] [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [start,220] --> Tomcat started on port(s): 8080 (http) with context path ''
+2023-01-03 22:45:46.850 [,] [restartedMain] INFO  c.e.h.HealthApplication - [logStarted,61] --> Started HealthApplication in 1.9 seconds (JVM running for 2077.806)
+2023-01-03 22:45:46.853 [,] [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - [onApplicationEvent,63] --> Condition evaluation unchanged
+2023-01-03 22:46:31.902 [,] [Thread-48] INFO  c.a.d.p.DruidDataSource - [close,2043] --> {dataSource-0} closing ...
+2023-01-03 22:46:32.556 [,] [restartedMain] INFO  c.e.h.HealthApplication - [logStarting,55] --> Starting HealthApplication using Java 1.8.0_131 on windows with PID 9992 (G:\Program Files\health\target\classes started by Administrator in G:\Program Files\health)
+2023-01-03 22:46:32.557 [,] [restartedMain] INFO  c.e.h.HealthApplication - [logStartupProfileInfo,640] --> No active profile set, falling back to 1 default profile: "default"
+2023-01-03 22:46:32.897 [,] [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [multipleStoresDetected,262] --> Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-01-03 22:46:32.898 [,] [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,132] --> Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-01-03 22:46:32.920 [,] [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,201] --> Finished Spring Data repository scanning in 21 ms. Found 0 Redis repository interfaces.
+2023-01-03 22:46:33.106 [,] [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [initialize,108] --> Tomcat initialized with port(s): 8080 (http)
+2023-01-03 22:46:33.109 [,] [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] --> Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-03 22:46:33.110 [,] [restartedMain] INFO  o.a.c.c.StandardService - [log,173] --> Starting service [Tomcat]
+2023-01-03 22:46:33.111 [,] [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] --> Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-01-03 22:46:33.151 [,] [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] --> Initializing Spring embedded WebApplicationContext
+2023-01-03 22:46:33.152 [,] [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - [prepareWebApplicationContext,290] --> Root WebApplicationContext: initialization completed in 591 ms
+2023-01-03 22:46:33.468 [,] [restartedMain] WARN  c.b.m.c.m.TableInfoHelper - [initTableFields,307] --> Can not find table primary key in Class: "com.example.health.entity.TbManager".
+2023-01-03 22:46:33.506 [,] [restartedMain] WARN  c.b.m.c.m.TableInfoHelper - [initTableFields,307] --> Can not find table primary key in Class: "com.example.health.entity.TbStudent".
+2023-01-03 22:46:33.594 [,] [restartedMain] WARN  c.b.m.c.m.TableInfoHelper - [initTableFields,307] --> Can not find table primary key in Class: "com.example.health.entity.TbProfession".
+2023-01-03 22:46:33.803 [,] [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - [startServer,58] --> LiveReload server is running on port 35729
+2023-01-03 22:46:33.832 [,] [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] --> Starting ProtocolHandler ["http-nio-8080"]
+2023-01-03 22:46:33.836 [,] [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [start,220] --> Tomcat started on port(s): 8080 (http) with context path ''
+2023-01-03 22:46:33.842 [,] [restartedMain] INFO  c.e.h.HealthApplication - [logStarted,61] --> Started HealthApplication in 1.348 seconds (JVM running for 2124.798)
+2023-01-03 22:46:33.845 [,] [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - [onApplicationEvent,63] --> Condition evaluation unchanged

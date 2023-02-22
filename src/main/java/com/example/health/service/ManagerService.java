@@ -1,6 +1,6 @@
-package com.example.community.service;
+package com.example.health.service;
 
-import com.example.community.entity.TbManager;
+import com.example.health.entity.TbManager;
 
 public interface ManagerService extends BaseService<TbManager> {
 }
